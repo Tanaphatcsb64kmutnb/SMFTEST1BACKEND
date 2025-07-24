@@ -54,7 +54,7 @@ exports.login = async(req,res,next)=>{
     }
 }
 
-
+//ดึงข้อมูล user เฉพาะคน
 exports.getUserById = async (req, res) => {
   try {
     const user = await UserService.getUserById(req.params.id);
