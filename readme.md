@@ -7,8 +7,8 @@ Backend for SmileFokus Test 1
 - **Node.js**
 - **Express.js**
 - **MongoDB** (ผ่าน Mongoose)
-- **JWT** สำหรับ authentication
-- **dotenv** สำหรับจัดการ environment variables
+- **Render** (Deploy)
+
 
 
 
