@@ -14,7 +14,7 @@ Backend for SmileFokus Test 1
 
 ## Structure file
 ```bash
-project/
+SmileFokusAssignment1//
 ├── SMFTEST1BACKEND/ ***
 ├── SMFTEST1FRONTEND/
 ```
@@ -32,7 +32,7 @@ cd SMFTEST1BACKEND
 npm install
 ```
 
-3. สร้างไฟล์ .env ไว้ path เดียวกับ SMFTEST1BACKEND
+3. สร้างไฟล์ .env ไว้ path เดียวกับ SMFTEST1BACKEND (กรณีที่ไม่ได้โหลดงานจาก google drive)
 ```bash
 MONGODB_URI = รหัสอยู่ที่ ZIPFILE ครับ
 ```
