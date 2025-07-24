@@ -33,7 +33,9 @@ npm install
 ```
 
 3. สร้างไฟล์ .env ไว้ path เดียวกับ SMFTEST1BACKEND
+```bash
 MONGODB_URI = รหัสอยู่ที่ ZIPFILE ครับ
+```
 
 4. 
 ```bash
