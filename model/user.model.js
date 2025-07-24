@@ -1,4 +1,4 @@
-// user.model.js
+// usercollection
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 

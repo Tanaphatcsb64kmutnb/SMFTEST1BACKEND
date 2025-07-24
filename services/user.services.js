@@ -24,7 +24,7 @@ static async generateToken(tokenData,secretKey,jwt_expire){
     return jwt.sign(tokenData,secretKey,{expiresIn:jwt_expire});
 }
 
-// ใน user.services.js
+//เอา id ของ user มาใช้
 static async getUserById(userId) {
   return await UserModel.findById(userId);
 }

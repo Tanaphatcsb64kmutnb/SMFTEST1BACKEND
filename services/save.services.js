@@ -80,6 +80,7 @@ class SaveService {
     }
 
 
+    //ดู wishlist ของ user ที่ใช้งานอยูู่
     static async getSavedRewardsByUser(userId) {
   try {
     return await SaveModel.find({ user_id: userId }, 'reward_id');
@@ -89,6 +90,7 @@ class SaveService {
 }
 
 
+    //เอา rewards ออกจาก wishlist
     static async deleteSave(user_id, reward_id) {
   try {
     return await SaveModel.findOneAndDelete({ user_id, reward_id });
